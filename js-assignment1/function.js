@@ -12,6 +12,16 @@ function addition(number1, number2, number3){
   return result;
 }
 
+------------ two number subtration ------------
+
+function subtration(number1, number2) {
+  var result;
+  console.log("number1," number1);
+  console.log("number2", number2);
+  result =  number1 - number2;
+  console.log("result after subtration is", result);
+}
+
 -------------------- Area of rectangle ----------------
 
 function areaOfreatangle(length, weight) {
@@ -26,6 +36,6 @@ function areaOfreatangle(length, weight) {
 
 ------------------ find subject percentage using array -------------
 
-function percentageOfsubject(argument) {
+function percentageOfsubject(array) {
   // body...
 }
